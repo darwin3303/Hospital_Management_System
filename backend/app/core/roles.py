@@ -1,0 +1,11 @@
+import enum
+
+
+class Role(str, enum.Enum):
+    ADMIN = "ADMIN"
+    RECEPTIONIST = "RECEPTIONIST"
+    DOCTOR = "DOCTOR"
+    NURSE = "NURSE"
+    LAB_STAFF = "LAB_STAFF"
+    PHARMACIST = "PHARMACIST"
+    ACCOUNTANT = "ACCOUNTANT"
